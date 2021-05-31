@@ -1,0 +1,169 @@
+/******************************Global Variables************************************/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color:black;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav, footer{
+    text-align: center;
+    position: relative;
+    border: 2px solid black;
+    background-image: url("../images/creased2.jpg");
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    
+}
+/***************************End of GlobalVariables**********************************/
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav{
+    height:25vh;
+    width:100vw; 
+}
+
+.Row{
+    display: flex;   
+}
+
+a:hover{
+    background-color:cornflowerblue;
+    color: white;
+}
+
+iframe{
+    width:80vw;
+    height: 70vh;
+    border: none;
+    background-image: url("../images/creased3.jpg");
+}
+
+aside{
+    width:20vw;
+    height: 70vh;
+    font-size: larger;
+    background-image: url("../images/creased2.jpg");
+    border: 2px 2px solid black;
+}
+
+aside ul{
+    line-height: 10vh;
+    padding: 2vh;
+    margin: 2vh;
+}
+
+
+#main , #myDiv1,#contact{
+    position: relative;
+    margin:20px;
+    padding:10px;
+    width:70vw;
+    height:75vh;
+} 
+
+#title1{
+    width: 55vw;
+    height:4vh;
+}
+
+#text1{
+    width:60vw;
+    height:60vh;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+#myDiv1 img, #text1 img{
+    height: 200px;
+    width: 200px;
+}
+
+
+.tool-items{
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+#myColor{
+   width:1px;
+   height:1px;
+  visibility:hidden;
+}
+
+#colorIcon{
+    position: relative;
+    left: -5px;
+    width:20px;
+    height:20px;
+}
+
+button{
+    margin: 20px ;
+    width: 75px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}
+
+
+.viewDiv{
+    border:2px solid black;
+    height:200px;
+    width:200px;
+    padding:5px;
+    margin:20px 20px 0px 20px;
+    background-image:url('../images/bluePage.jpg');
+    text-align: center;
+    font-size: larger;
+    font-weight:bold;
+    border-radius: 10px;
+    box-shadow:lightblue 10px 10px;
+    transition-property:width,height;
+    transition-duration: 1s;   
+    overflow:hidden;    
+}
+
+.viewDiv:hover{
+    height:220px;
+    
+}
+
+dt{
+    font-weight: bold;
+}
+
+#contact span{
+    display: inline-block;
+    height:200px;
+    width: 200px;
+}
